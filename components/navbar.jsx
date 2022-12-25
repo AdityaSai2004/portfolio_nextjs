@@ -10,10 +10,10 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    <div className="fixed w-full h-21 shadow-xl z-[100]">
+    <div className="fixed w-full h-21 shadow-xl z-[100] bg-[#EDECE8]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Image
-          src="/./assets/icons/logo_dark.png"
+          src="/./assets/icons/logo_light.png"
           alt=""
           width={100}
           height={100}
@@ -49,7 +49,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "left-0 top-0 w-[70%] sm:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in-duration-500"
+              ? "left-0 top-0 w-[70%] sm:w-[45%] h-screen bg-[#FDF5F3] p-10 ease-in-duration-500"
               : "fixed left-[100%] p-10 ease-in-duration-500"
           }
         >
