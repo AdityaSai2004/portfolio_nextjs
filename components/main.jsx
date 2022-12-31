@@ -18,8 +18,7 @@ const Main = () => {
             learning ML
           </p>
           <div className="py-4 align-content:center text-center">
-            {/* Must check the shadow effect*/}
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+            <div className="rounded-full shadow-lg shadow-[#aff038] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
               <span className="text-base tracking-widest text-white ">
                 Contact Me
               </span>
