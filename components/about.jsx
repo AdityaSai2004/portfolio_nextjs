@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import AboutImg from "../public/assets/about.png";
+import AboutImg from "../public/assets/about.jpg";
 // modify my image
 const About = () => {
   return (
