@@ -5,9 +5,9 @@ import Css from "../public/assets/skills/css.png";
 import Javascript from "../public/assets/skills/javascript.png";
 import ReactImg from "../public/assets/skills/react.png";
 import Tailwind from "../public/assets/skills/tailwind.png";
-import Github from "../public/assets/skills/github1.png";
+import Github from "../public/assets/skills/github-mark-white.png";
 import gatsby from "../public/assets/skills/gatsby.png";
-import NextJS from "../public/assets/skills/nextjs.png";
+import NextJS from "../public/assets/skills/next.png";
 import python from "../public/assets/skills/python.png";
 import scikit from "../public/assets/skills/scikit.png";
 import c from "../public/assets/skills/c.png";
@@ -15,14 +15,14 @@ import cpp from "../public/assets/skills/cpp.png";
 
 const Skills = () => {
   return (
-    <div id="skills" className="w-full lg:h-screen p-2">
-      <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
-        <p className="text-xl tracking-widest uppercase text-[#5651e5]">
+    <div id="skills" className="w-full lg:h-screen p-2 bg-black">
+      <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full text-white">
+        <p className="text-2xl tracking-widest uppercase text-[#aff038]">
           Skills
         </p>
         <h2 className="py-4">What I Can Do</h2>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 color-white">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={Html} width="64px" height="64px" alt="/" />
