@@ -21,19 +21,19 @@ const Navbar = () => {
         <div>
           <ul className="hidden md:flex items-center space-x-6">
             <li className="text-sm font-semibold text-white hover:text-white hover:scale-110">
-              Home
+              <Link href="/">Home</Link>
             </li>
             <li className="text-sm font-semibold text-white hover:text-white hover:scale-110">
-              About me
+              <Link href="#about">About me</Link>
             </li>
             <li className="text-sm font-semibold text-white hover:text-white hover:scale-110">
-              My projects
+              <Link href="#projects">My Projects</Link>
             </li>
             <li className="text-sm font-semibold text-white hover:text-white hover:scale-110">
-              My skills
+              <Link href="#skills">My Skills</Link>
             </li>
             <li className="text-sm font-semibold text-white hover:text-white hover:scale-110">
-              Contact me
+              <Link href="#contact">Contact me</Link>
             </li>
           </ul>
           <div onClick={handleNav} className="md:hidden">
@@ -74,10 +74,10 @@ const Navbar = () => {
           </div>
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
-              <Link href="/">
+              <Link href="#main">
                 <li className="py-4 text-sm">Home</li>
               </Link>
-              <Link href="/">
+              <Link href="#about">
                 <li className="py-4 text-sm">About me</li>
               </Link>
               <Link href="/">

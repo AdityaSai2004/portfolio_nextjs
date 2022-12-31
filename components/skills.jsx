@@ -6,9 +6,12 @@ import Javascript from "../public/assets/skills/javascript.png";
 import ReactImg from "../public/assets/skills/react.png";
 import Tailwind from "../public/assets/skills/tailwind.png";
 import Github from "../public/assets/skills/github1.png";
-import Firebase from "../public/assets/skills/firebase.png";
+import gatsby from "../public/assets/skills/gatsby.png";
 import NextJS from "../public/assets/skills/nextjs.png";
-import AWS from "../public/assets/skills/aws.png";
+import python from "../public/assets/skills/python.png";
+import scikit from "../public/assets/skills/scikit.png";
+import c from "../public/assets/skills/c.png";
+import cpp from "../public/assets/skills/cpp.png";
 
 const Skills = () => {
   return (
@@ -72,10 +75,10 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Firebase} width="64px" height="64px" alt="/" />
+                <Image src={gatsby} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Firebase</h3>
+                <h3>Gatsby</h3>
               </div>
             </div>
           </div>
@@ -96,6 +99,50 @@ const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Next</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={python} width="64px" height="64px" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Python</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={scikit} width="64px" height="64px" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Scikit Learn</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={c} width="64px" height="64px" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>C</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={cpp} width="64px" height="64px" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>C++</h3>
               </div>
             </div>
           </div>
