@@ -10,29 +10,29 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    <div className="fixed w-full h-21 shadow-xl z-[100] bg-[#EDECE8]">
+    <div className="fixed w-full h-21 shadow-xl z-[100] bg-[#000000]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Image
-          src="/./assets/icons/logo_light.png"
+          src="/./assets/icons/logo_dark.png"
           alt=""
           width={100}
           height={100}
         />
         <div>
           <ul className="hidden md:flex items-center space-x-6">
-            <li className="text-sm font-semibold text-gray-500 hover:text-gray-900 hover:scale-110">
+            <li className="text-sm font-semibold text-white hover:text-white hover:scale-110">
               Home
             </li>
-            <li className="text-sm font-semibold text-gray-500 hover:text-gray-900 hover:scale-110">
+            <li className="text-sm font-semibold text-white hover:text-white hover:scale-110">
               About me
             </li>
-            <li className="text-sm font-semibold text-gray-500 hover:text-gray-900 hover:scale-110">
+            <li className="text-sm font-semibold text-white hover:text-white hover:scale-110">
               My projects
             </li>
-            <li className="text-sm font-semibold text-gray-500 hover:text-gray-900 hover:scale-110">
+            <li className="text-sm font-semibold text-white hover:text-white hover:scale-110">
               My skills
             </li>
-            <li className="text-sm font-semibold text-gray-500 hover:text-gray-900 hover:scale-110">
+            <li className="text-sm font-semibold text-white hover:text-white hover:scale-110">
               Contact me
             </li>
           </ul>
