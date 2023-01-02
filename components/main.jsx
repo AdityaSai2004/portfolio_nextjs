@@ -20,13 +20,15 @@ const Main = () => {
             I’m focused on building responsive front-end web applications and
             learning ML
           </p>
-          <div className="py-4 align-content:center text-center">
-            <div className="rounded-full shadow-lg shadow-[#aff038] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <span className="text-base tracking-widest text-white ">
-                Contact Me
-              </span>
+          <Link href="#contact">
+            <div className="py-4 align-content:center text-center">
+              <div className="rounded-full shadow-lg shadow-[#aff038] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <span className="text-base tracking-widest text-white ">
+                  Contact Me
+                </span>
+              </div>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
     </div>
