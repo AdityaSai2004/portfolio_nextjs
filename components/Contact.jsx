@@ -2,9 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import { AiOutlineMail } from "react-icons/ai";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import ContactImg from "../public/assets/contact.jpg";
 
 const Contact = () => {
@@ -15,7 +13,7 @@ const Contact = () => {
           Contact
         </p>
         <h2 className="py-4">Let's Talk</h2>
-        <div className="grid lg:grid-cols-5 gap-8">
+        <div className="grid lg:grid-cols-5 gap-8 bg-black text-white">
           {/* left */}
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full ">
@@ -38,7 +36,7 @@ const Contact = () => {
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
                   <a
-                    href="https://www.linkedin.com/in/clint-briley-50056920a/"
+                    href="www.linkedin.com/in/aditya-sai-sd/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -47,7 +45,7 @@ const Contact = () => {
                     </div>
                   </a>
                   <a
-                    href="https://github.com/fireclint"
+                    href="https://github.com/AdityaSai2004"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -56,16 +54,25 @@ const Contact = () => {
                     </div>
                   </a>
 
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <AiOutlineMail />
-                  </div>
-                  <Link href="/resume">
-                    <a>
-                      <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                        <BsFillPersonLinesFill />
-                      </div>
-                    </a>
-                  </Link>
+                  <a
+                    href="mailto:2004sai@gmail.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <AiOutlineMail />
+                    </div>
+                  </a>
+
+                  <a
+                    href="https://twitter.com/adityasai2004"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <FaTwitter />
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -123,24 +130,12 @@ const Contact = () => {
                     name="message"
                   ></textarea>
                 </div>
-                <button className="w-full p-4 text-gray-100 mt-4">
+                <button className="w-full p-4 text-gray-100 mt-4 bg-black">
                   Send Message
                 </button>
               </form>
             </div>
           </div>
-        </div>
-        <div className="flex justify-center py-12">
-          <Link href="/">
-            <a>
-              <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
-                <HiOutlineChevronDoubleUp
-                  className="shadow-[#aff038]"
-                  size={30}
-                />
-              </div>
-            </a>
-          </Link>
         </div>
       </div>
     </div>
