@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import React, { useState } from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
@@ -18,18 +17,14 @@ const Contact = () => {
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full ">
               <div>
-                <Image
-                  className="rounded-xl hover:scale-105 ease-in duration-300"
-                  src={ContactImg}
-                  alt="/"
-                />
+                <Image className="rounded-xl" src={ContactImg} alt="/" />
               </div>
               <div>
                 <h2 className="py-2">Aditya Sai</h2>
                 <p>Front-End Developer</p>
                 <p className="py-4">
-                  I am available for freelance or full-time positions. Contact
-                  me and let's talk.
+                  I am open to both freelance and full-time job opportunities.
+                  Please contact me so we can discuss how I can contribute.
                 </p>
               </div>
               <div>
@@ -79,10 +74,10 @@ const Contact = () => {
           </div>
 
           {/* right */}
-          <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
+          <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4 text-white">
             <div className="p-4">
               <form
-                action="https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060"
+                action="https://getform.io/f/a748eee6-79cb-4688-9096-1c860f48b178"
                 method="POST"
                 encType="multipart/form-data"
               >
@@ -90,7 +85,7 @@ const Contact = () => {
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Name</label>
                     <input
-                      className="border-2 rounded-lg p-3 flex border-gray-300"
+                      className="border-2 rounded-lg p-3 flex border-gray-300 text-black"
                       type="text"
                       name="name"
                     />
@@ -100,7 +95,7 @@ const Contact = () => {
                       Phone Number
                     </label>
                     <input
-                      className="border-2 rounded-lg p-3 flex border-gray-300"
+                      className="border-2 rounded-lg p-3 flex border-gray-300 text-black"
                       type="text"
                       name="phone"
                     />
@@ -109,7 +104,7 @@ const Contact = () => {
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Email</label>
                   <input
-                    className="border-2 rounded-lg p-3 flex border-gray-300"
+                    className="border-2 rounded-lg p-3 flex border-gray-300 text-black"
                     type="email"
                     name="email"
                   />
@@ -117,7 +112,7 @@ const Contact = () => {
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Subject</label>
                   <input
-                    className="border-2 rounded-lg p-3 flex border-gray-300"
+                    className="border-2 rounded-lg p-3 flex border-gray-300 text-black"
                     type="text"
                     name="subject"
                   />
@@ -125,7 +120,7 @@ const Contact = () => {
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Message</label>
                   <textarea
-                    className="border-2 rounded-lg p-3 border-gray-300"
+                    className="border-2 rounded-lg p-3 border-gray-300 text-black"
                     rows="10"
                     name="message"
                   ></textarea>
