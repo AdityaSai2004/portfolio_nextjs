@@ -6,9 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        hero: "url('../public/assets/icons/IMG_5002.jpg')",
-      },
+      // backgroundImage: {
+      //   hero: "url('../public/assets/icons/IMG_5002.jpg')",
+      // },
     },
   },
   plugins: [],

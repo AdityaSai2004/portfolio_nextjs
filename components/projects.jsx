@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import propertyImg from "../public/assets/projects/property.jpg";
-import cryptoImg from "../public/assets/projects/crypto.jpg";
+import agrotis from "../public/assets/projects/agrotis.png";
+import fitnut from "../public/assets/projects/fitnut.jpg";
 import netflixImg from "../public/assets/projects/netflix.jpg";
 import twitchImg from "../public/assets/projects/twitch.jpg";
 import ProjectItem from "./ProjectItem.jsx";
@@ -18,13 +18,13 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Agrotis"
-            backgroundImg={propertyImg}
+            backgroundImg={agrotis}
             projectUrl="/property"
             tech="Flask"
           />
           <ProjectItem
             title="Fitnut"
-            backgroundImg={cryptoImg}
+            backgroundImg={fitnut}
             projectUrl="/crypto"
             tech="Java"
           />
@@ -41,6 +41,9 @@ const Projects = () => {
             tech="Gatsby JS"
           />
         </div>
+        <a href="https://github.com/AdityaSai2004" className="mt-10px">
+          Click here to see more of my projects
+        </a>
       </div>
     </div>
   );
