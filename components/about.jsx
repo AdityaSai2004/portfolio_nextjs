@@ -13,7 +13,7 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            "Hello, my name is Aditya and I&apos;m a 19-year-old computer
+            &quot;Hello, my name is Aditya and I&apos;m a 19-year-old computer
             science student from Chennai, India. I&apos;ve always been drawn to
             technology and the endless possibilities it offers, and I decided to
             pursue a degree in computer science to further my understanding of
@@ -23,7 +23,7 @@ const About = () => {
             goal is to work at a tech company where I can use my skills to
             create innovative solutions and make a positive impact on the world.
             I&apos;m a motivated and driven individual with a passion for
-            learning and problem-solving."
+            learning and problem-solving.&quot;
           </p>
           <p className="py-2 text-gray-600"></p>
           <Link href="/#projects">
